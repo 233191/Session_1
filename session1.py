@@ -18,3 +18,22 @@ gst_apple = 0.1 * apple
 gst_pie = 0.08 * pie
 print(gst_apple)
 print(gst_pie)
+
+# WAP to calculate the minis in the maxis
+# total maxis is 2.5 * minis
+# 1 minis is 5000
+# calculate how much is 4.5 maxis
+
+minis = 5000
+maxis = 2.5 * minis
+print(" The require value is:", 4.5*2.5*minis)
+\
+
+bits = 1
+bytes = 8*bits
+kilo_bytes = 1024*bytes
+mega_bytes = 1024*kilo_bytes
+giga_bytes = 1024*mega_bytes
+tera_bytes = 1024*giga_bytes
+print("the memory allocation units are as follows: ")
+print("1.", bits, "2.", bytes, "3.", kilo_bytes, "4.", mega_bytes, "5.", giga_bytes, "6.", tera_bytes)
