@@ -48,4 +48,10 @@ imfrom = ["asia"]
 for conti in contis:
     print(f"I like to go to {imfrom}!")
 
+# Calculating a running total
+total = 0
+for num in range(1,50):
+    total += num
+    print(f"current total: {total}")
+
 
