@@ -31,4 +31,9 @@ an_id = input("Do you have an ID (True or False): ") # ask the user if he has an
 if a_stdnt and an_id: # use logical operator and to check the condition
     print("You can get concessions") # print the statement if the above condition is satisfied
 
+c =1
+while c <=5:
+    print(f"Counting...{c}")
+    c += 1
+
 
