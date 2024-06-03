@@ -25,4 +25,10 @@ elif score <= 85:  # if the first, second and third condition is not satisfied, 
 else:
     print(Congratulations !! You've got high distinction")  #if the the above conditions are not satisfied, print the result
 
+# logical operators
+a_stdnt = input("Are you a student (True or False): ") # ask the user to get input if he is a student
+an_id = input("Do you have an ID (True or False): ") # ask the user if he has an ID
+if a_stdnt and an_id: # use logical operator and to check the condition
+    print("You can get concessions") # print the statement if the above condition is satisfied
+
 
