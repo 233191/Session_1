@@ -42,3 +42,10 @@ for conti in contis:
     print(f"I like to go to {conti}!")
 
 
+# The For loop
+contis = ["asia", "Australia", "Antartica", "north america", "south america", "Europe","africa"]
+imfrom = ["asia"]
+for conti in contis:
+    print(f"I like to go to {imfrom}!")
+
+
