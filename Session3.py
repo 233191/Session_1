@@ -36,4 +36,9 @@ while c <=5:
     print(f"Counting...{c}")
     c += 1
 
+# The For loop
+contis = ["asia", "Australia", "Antartica", "north america", "south america", "Europe","africa"]
+for conti in contis:
+    print(f"I like to go to {conti}!")
+
 
