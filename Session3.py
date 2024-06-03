@@ -12,4 +12,17 @@ if wthr == "Cloudy": # check the user input comparing with a string
 else:
     print("Be safe while driving") # If the check condition is not satisfied, print the result
 
+#Nested Decision Structures (if-elif-else)
+Score = int(input("Enter your score: ")) #take input from the user
+if score < 50: # Compare the input with first condition
+    print("You've failed") # if the condition above is satisfied, print the result
+elif score <= 65: # if the first condition is not satisfied, check this condition
+    print("You've got the pass grade") # if second condition is satisfied, print the result
+elif score <=75:  # if the first and secod condition is not satisfied, check this condition
+    print("You've got the credit grade") # if third condition is satisfied, print the result
+elif score <= 85:  # if the first, second and third condition is not satisfied, check this condition
+    print("You've got a distinction") # if fourth condition is satisfied, print the result
+else:
+    print(Congratulations !! You've got high distinction")  #if the the above conditions are not satisfied, print the result
+
 
